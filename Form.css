@@ -38,8 +38,7 @@ h3 {
 
 p {
   font-family: 'Roboto', 'sans-serif';
-  font-size: 1rem;
-  font-weight: 700;
+  font-size: 0.7rem;
   color: var(--primary-text-color);
   line-height: 1.5;
 }
@@ -166,10 +165,14 @@ ul {
     flex-direction: column;
     gap: 10px;
 }
+.login-platform p{
+  font-size: 1rem;
+  font-weight: 700;
+}
 .platform{
     font-size: 1.5rem;
     gap: 12px;
 }
-.forgot:hover a{
-    color: var(--accent-color);
+.sign-up p{
+  font-size: 0.9rem;
 }
