@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Offer.css">
+    <link rel="stylesheet" href="Favorites.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -18,20 +18,21 @@
     <nav>
         <div class="container main-nav flex">
             <div class="company-logo">
-                <a href="Home.html" class="logo">
+                <a href="/Home.html" class="logo">
                     <h2>Vansa</h2>
                     <p>छिटो र मिठो</p>
                 </a>
             </div>
             <div class="nav-links flex">
                 <ul class="flex">
-                    <li><a href="Home.html" class="hover-links">Home</a></li>
-                    <li><a href="Menu.html" class="hover-links">Menu</a></li>
-                    <li><a href="Offer.html" class="hover-links present-nav"><span><i
+                    <li><a href="/Home.html" class="hover-links">Home</a></li>
+                    <li><a href="/Menu.html" class="hover-links">Menu</a></li>
+                    <li><a href="/Offer.html" class="hover-links"><span><i
                                     class="fa-solid fa-percent"></i></span>Offer</a></li>
-                    <li><a href="Form.html" class="hover-links primary-btn">Sign in</a></li>
-                    <li><a href="Cart.html" class="hover-links"><span><i
+                    <li><a href="/Cart.html" class="hover-links"><span><i
                                     class="fa-solid fa-cart-shopping"></i></span>Cart</a></li>
+                    <li><a href="/Account-section.html" class="hover-links present-nav"><span><i
+                                    class="fa-solid fa-user"></i></span>Account</a></li>
                 </ul>
             </div>
         </div>
@@ -41,24 +42,45 @@
 
     <section class="navigation-section">
         <div class="container navigation-container flex">
-            <a href="Home.html">
+            <a href="/Home.html">
                 <p style="color:darkgrey;">Home</p>
             </a>
             <p>></p>
-            <p>Offer</p>
+            <p>Account Settings</p>
         </div>
     </section>
 
 
-    <section class="offer-details-section flex">
-        <div class="container offer-container flex">
-            <div class="offer-details flex">
-                <div>
-                    <h2>No Offers Available</h2>
-                    <p>You can go to home page to view more Vansa delights</p>
+    <section class="account">
+        <div class="container account-container flex">
+            <div class="left-account-section">
+                <div class="favorites-section flex">
+                    <div class=" bottom-border">
+                        <h3>MY ACCOUNT</h3>
+                    </div>
+                    <div>
+                        <ul class="account-option flex">
+                           <li><a href="/Account-section.html" class="hover-links bottom-border">MY PROFILE</a></li>
+                            <li><a href="Favorites-section.html" class="hover-links active-status bottom-border">FAVORITES</a></li>
+                            <li><a href="My-orders-section.html" class="hover-links bottom-border">MY ORDERS</a></li>
+                            <li><a href="Change-password-section.html" class="hover-links bottom-border">CHANGE PASSWORD</a></li>
+                            <li><a href="My-address-section.html" class="hover-links bottom-border">MY ADDRESS</a></li>
+                            <li><a href="#" class="hover-links bottom-border">LOGOUT</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <a href="Home.html" class="hover-links primary-btn">Go Back To Homepage</a>
+            </div>
+            <div class="right-account-section flex">
+                <div class="right-account-container">
+                    <div class="favorite-details flex">
+                        <div>
+                            <h2>Your Favourite List is Empty.</h2>
+                            <p>Add now and start saving your favourite items.</p>
+                        </div>
+                        <div>
+                            <a href="/Home.html" class="hover-links primary-btn">Go Back To Homepage</a>
+                        </div>
+                </div>
                 </div>
             </div>
         </div>

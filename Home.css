@@ -138,6 +138,9 @@ ul {
 .nav-links ul {
   gap: 40px;
 }
+.present-nav{
+  color: var(--accent-color-dark);
+}
 
 /* Hero Section */
 

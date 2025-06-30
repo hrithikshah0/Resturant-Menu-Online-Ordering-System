@@ -71,9 +71,9 @@ ul {
 }
 
 .hover-links:hover {
-   background-color: var(--accent-color);
+  color: var(--accent-color);
+  transition: 0.2s ease-out;
 }
-
 .primary-btn {
   background-color: white;
   border: 0.5px solid var(--accent-color-dark);
@@ -120,6 +120,9 @@ ul {
 .nav-links ul {
   gap: 40px;
 }
+.present-nav{
+  color: var(--accent-color-dark);
+}
 
 /* Navigation Section */
 
@@ -153,6 +156,10 @@ ul {
     width: 250px;
     padding: 15px;
     border-bottom: 1px solid var(--Explore-menu-card);
+}
+.account-option a:hover{
+   background-color: var(--accent-color);
+   color: var(--primary-text-color);
 }
 .active-status{
     background-color: var(--accent-color);

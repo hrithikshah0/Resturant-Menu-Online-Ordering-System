@@ -121,6 +121,9 @@ ul {
 .nav-links ul {
   gap: 40px;
 }
+.present-nav{
+  color: var(--accent-color-dark);
+}
 
 /* Navigation Section */
 
@@ -352,6 +355,9 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
+}
+.contact-details p{
+  color: var(--secondary-text-color);
 }
 .details{
   font-size: 0.8rem;

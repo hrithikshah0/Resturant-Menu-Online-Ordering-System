@@ -121,6 +121,9 @@ ul {
 .nav-links ul {
   gap: 40px;
 }
+.present-nav{
+  color: var(--accent-color-dark);
+}
 
 /* Navigation Section */
 
@@ -140,14 +143,17 @@ ul {
 .offer-details-section{
     justify-content: center;
     padding-block: 40px;
+    background-color: var(--Explore-menu-card);
+    border-radius: 15px;
 }
 .offer-container{
     width: 100%;
     height: 400px;
-    background-color: var(--text-color);
+    background-color: var(--secondary-text-color);
     justify-content: center;
 }
 .offer-details{
+   text-align: center;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
@@ -212,6 +218,9 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   gap: 4px;
+}
+.contact-details p{
+  color: var(--secondary-text-color);
 }
 .details{
   font-size: 0.8rem;

@@ -124,24 +124,6 @@ ul {
 .present-nav{
   color: var(--accent-color-dark);
 }
-.search input{
-    height: 40px;
-    background-color: var(--accent-color);
-    border: 0px;
-    padding: 10px;
-    font-size: 1rem;
-    border-top-left-radius: 4px;
-    border-bottom-left-radius: 4px;
-}
-.search i{
-    height: 40px;
-    width: 40px;
-    padding: 10px;
-    background-color: var(--accent-color-dark);
-    font-size: 1rem;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-}
 
 /* Navigation Section */
 
@@ -156,88 +138,50 @@ ul {
     padding-block: 30px;
 }
 
-/* Menu Section */
+/* Account Section */
 
-.menu-container{
-    align-items: flex-start;
+.account{
+    background-color: var(--Explore-menu-card);
+}
+.account-container{
+    padding-block: 50px;
     gap: 50px;
 }
-.menu-section-left{
-    position: sticky;
-    top: 0px;
-}
-.menu-list ul{
-    font-weight: 900;
-    align-items: flex-start;
+.favorites-section{
+    border-radius: 15px;
     flex-direction: column;
+    background-color: var(--secondary-text-color);
+    align-items: flex-start;
 }
-.menu-li-name{
-    width: 200px;
-    padding: 15px 0 15px 10px;
-    border-bottom: 1px solid rgb(232, 228, 228);
+.bottom-border{
+    width: 250px;
+    padding: 15px;
+    border-bottom: 1px solid var(--Explore-menu-card);
 }
-.menu-li-name:hover{
+.account-option a:hover{
+   background-color: var(--accent-color);
+   color: var(--primary-text-color);
+}
+.active-status{
     background-color: var(--accent-color);
-    border-radius: 4px;
 }
-
-.menu-section{
-    flex-direction: column;
+.account-option{
     align-items: flex-start;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgb(224, 221, 221);
+    flex-direction: column;
+}
+.right-account-section{
+    background-color: var(--secondary-text-color);
+    width: 70%;
+    border-radius: 15px;
+    height: 396px;
+    justify-content: center;
+}
+.favorite-details{
+    gap: 30px;
+    text-align: center;
+    flex-direction: column;
 }
 
-.menu-card{
-    gap: 10px;
-    flex-wrap: wrap;
-}
-.menu-item-card{
-  width: 275px;
-  height: 430px;
-  background-color: white;
-  border-radius: 4px;
-  border: 1px solid var(--text-color);
-  margin-block: 15px;
-  flex-direction: column;
-  text-align: center;
-  gap: 20px;
-}
-.menu-item-card:hover{
-  border: 1px solid var(--accent-color-dark);
-}
-.card-container{
-  padding-top: 10px;
-  justify-content: center;
-}
-
-.card-background{
-  height: 253px;
-  width: 253px;
-  border-radius: 4px;
-  /* background-image: url(Image/Food-background/Background.webp);
-  background-size: cover;*/
-} 
-.item-name-description{
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-}
-.item-name{
-  gap: 5px;
-  position: relative;
-  left: 15px;
-}
-.item-description{
- text-align: left;
- padding-inline: var(--padding-inline-section);
-}
-.item-description p{
-  color: var(--text-color);
-}
-.price-cart{
-  gap: 50px;
-}
 
 /* App Banner Section */
 
