@@ -285,6 +285,7 @@ ul {
   background-color: var(--accent-color-dark);
   color: white;
   border: none;
+  text-align: center;
   border-radius: 30px;
   font-size: 1.2rem;
   font-weight: bold;
