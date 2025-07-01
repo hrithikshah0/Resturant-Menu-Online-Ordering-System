@@ -10,6 +10,7 @@
 }
 
 
+
 /* Navigation Section */
 
 .navigation-section{
@@ -32,7 +33,7 @@
     padding-block: 50px;
     gap: 50px;
 }
-.favorites-section{
+.my-profile{
     border-radius: 15px;
     flex-direction: column;
     background-color: var(--secondary-text-color);
@@ -54,16 +55,42 @@
     align-items: flex-start;
     flex-direction: column;
 }
+
 .right-account-section{
-    background-color: var(--secondary-text-color);
     width: 70%;
+}
+.my-profile-content{
     border-radius: 15px;
     height: 396px;
-    justify-content: center;
+    padding: 30px;
+    background-color: var(--secondary-text-color);
 }
-.favorite-details{
+.form-update{
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+.account-section-header{
+    width: 100%;
+   padding-bottom: 5px;
+   border-bottom: 1px solid var(--Explore-menu-card);
+}
+.profile-details{
+    align-items: flex-start;
+    flex-direction: column;
     gap: 30px;
-    text-align: center;
+}
+.profile-details input{
+    height: 40px;
+    width: 355px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+}
+.input-section{
+    gap: 30px;
+}
+.input-details{
+    align-items: flex-start;
     flex-direction: column;
 }
 
