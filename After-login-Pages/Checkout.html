@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Header-appbanner-footer.css">
+    <link rel="stylesheet" href="Checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- Navbar Section -->
+
+    <nav>
+        <div class="container main-nav flex">
+            <div class="company-logo">
+                <a href="/After-login-Pages/Home-after-login.html" class="logo">
+                    <h2>Vansa</h2>
+                    <p>छिटो र मिठो</p>
+                </a>
+            </div>
+            <div class="nav-links flex">
+                <ul class="flex">
+                    <li><a href="/After-login-Pages/Home-after-login.html" class="hover-links">Home</a></li>
+                    <li><a href="/After-login-Pages/Menu-after-login.html" class="hover-links">Menu</a></li>
+                    <li><a href="/After-login-Pages/Offer-after-login.html" class="hover-links"><span><i
+                                    class="fa-solid fa-percent"></i></span>Offer</a></li>
+                    <li><a href="/After-login-Pages/Cart-after-login.html" class="hover-links"><span><i
+                                    class="fa-solid fa-cart-shopping"></i></span>Cart</a></li>
+                    <li><a href="/After-login-Pages/Account-section.html" class="hover-links present-nav"><span><i
+                                    class="fa-solid fa-user"></i></span>Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Navigation Section -->
+
+    <section class="navigation-section">
+        <div class="container navigation-container flex">
+            <a href="/After-login-Pages/Home-after-login.html">
+                <p style="color:darkgrey;">Home</p>
+            </a>
+            <p style="color: darkgrey;">></p>
+            <a href="/After-login-Pages/Account-section.html">
+                <p style="color: darkgrey;">Cart</p>
+            </a>
+            <p>></p>
+            <p>Checkout</p>
+        </div>
+    </section>
+
+
+    <section class="checkout">
+        <div class="container checkout-container flex">
+            <div class="left-checkout flex">
+                <div class="address">
+                    <div class="delivery-content-header">
+                        <h4>DELIVERY ADDRESS</h4>
+                    </div>
+                    <div class="add-address flex">
+                        <div class="select-address">
+                            <i class="fa-solid fa-plus"></i>
+                            <a href="#">Add New Delivery Address</a>
+                        </div>
+                        <div class="additional-address">
+                            <label for="Note">Additional Instruction For Vansa Rider(Optional)</label>
+                            <textarea rows="5" cols="50" placeholder="Description..."></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="delivery-time">
+                    <div class="delivery-content-header">
+                        <h4>DELIVERY DATE AND TIME</h4>
+                    </div>
+                    <div class="delivery-select flex">
+                        <div class="delivery-option flex">
+                            <div>
+                                <input type="radio" name="delivery-type">
+                                <label for="Delivery">As Soon As Possible</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="delivery-type">
+                                <label for="Delivery">Schedule Delivery For Later Date/Time</label>
+                            </div>
+                            <div class="delivery-dt flex">
+                                <div class="flex delivery-date-time">
+                                    <label for="Date">DATE</label>
+                                    <input type="date">
+                                </div>
+                                <div class="flex delivery-date-time">
+                                    <label for="Date">TIME</label>
+                                    <select name="time-slot">
+                                        <option value="">--Select Time--</option>
+                                        <option>09:00AM - 09:30AM</option>
+                                        <option>09:30AM - 10:00AM</option>
+                                        <option>10:00AM - 10:30AM</option>
+                                        <option>10:30AM - 11:00AM</option>
+                                        <option>11:00AM - 11:30AM</option>
+                                        <option>11:30AM - 12:00PM</option>
+                                        <option>12:00PM - 12:30PM</option>
+                                        <option>12:30PM - 01:00PM</option>
+                                        <option>01:00PM - 01:30PM</option>
+                                        <option>01:30PM - 02:00PM</option>
+                                        <option>02:00PM - 02:30PM</option>
+                                        <option>02:30PM - 03:00PM</option>
+                                        <option>03:00PM - 03:30PM</option>
+                                        <option>03:30PM - 04:00PM</option>
+                                        <option>04:00PM - 04:30PM</option>
+                                        <option>04:30PM - 05:00PM</option>
+                                        <option>05:00PM - 05:30PM</option>
+                                        <option>05:30PM - 06:00PM</option>
+                                        <option>06:00PM - 06:30PM</option>
+                                        <option>06:30PM - 07:00PM</option>
+                                        <option>07:00PM - 07:30PM</option>
+                                        <option>07:30PM - 08:00PM</option>
+                                        <option>08:00PM - 08:30PM</option>
+                                        <option>08:30PM - 09:00PM</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div>
+                                <p><b>Note: Vansa Delivery Hours is from 08:00 AM to 9:00 PM</b></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payment-method">
+                    <div class="delivery-content-header">
+                        <h4>PAYMENT OPTION</h4>
+                    </div>
+                    <div class="payment-option flex">
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">Cash On Delivery</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">IME Pay</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">Fonepay QR</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">Debit/Credit Card</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">Esewa</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">ConnectIPS</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="payment-optiom">
+                            <label for="Payment">Khalti</label>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="order-notes">
+                    <div class="delivery-content-header">
+                        <h4>ORDER NOTES(OPTIONAL)</h4>
+                    </div>
+                    <div class="note-area">
+                        <textarea rows="5" cols="50" placeholder="Description..."></textarea>
+                    </div>
+                </div>
+                <div class="continue-cancel flex">
+                    <a href="Cart-after-login.html" class="hover-links secondary-btn">Cancel</a>
+                    <a href="#" class="hover-links primary-btn">Continue</a>
+                </div>
+
+            </div>
+
+            <div class="right-checkout">
+                <div class="right-checkout-content">
+                    <h3>Order Cart</h3>
+                    <div class="bill-amount">
+                        <div class="cart-line">
+                            <span>Subtotal:</span>
+                            <span>NRS 124.00</span>
+                        </div>
+                        <div class="cart-line">
+                            <span>Delivery:</span>
+                            <span>NRS 00.00</span>
+                        </div>
+                        <div class="cart-line">
+                            <span>Discount:</span>
+                            <span>NRS 10.00</span>
+                        </div>
+                    </div>
+                    <div class="total-additem flex">
+                        <div class="cart-line total flex">
+                            <strong>Total:</strong>
+                            <strong>NRS 134.00</strong>
+                        </div>
+                        <div class="add-items">
+                            <i class="fa-solid fa-plus"></i>
+                            <a href="/After-login-Pages/Menu-after-login.html">ADD MORE ITEMS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- App Banner Section -->
+
+    <section class="app-banner-section">
+        <div class="container banner-container flex">
+            <div class="left-section flex">
+                <div class="left-upper">
+                    <h2>Fresh & Fast, Just for You!</h2>
+                    <p>Order your favorite meals now and enjoy lightning-fast delivery!</p>
+                </div>
+                <div class="left-mid">
+                    <h3>Vansa App</h3>
+                    <h2>Download Now!!</h2>
+                </div>
+                <div class="left-lower flex">
+                    <h4>Available now on</h4>
+                    <div class="store flex">
+                        <a href="#"><img src="/Image/Store/Appstore.png" alt=""></a>
+                        <a href="#"><img src="/Image/Store/Playstore.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="/Image/App-banner/app-banner.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer-section">
+        <div class="container footer-container flex">
+            <div class="left-footer">
+                <h1>Vansa</h1>
+                <p>छिटो र मिठो</p>
+            </div>
+            <div class="right-footer flex">
+                <div>
+                    <h4>ABOUT</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Charges</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>GET HELP</h4>
+                    <ul>
+                        <li><a href="#">How to Order?</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQS</a></li>
+                        <li><a href="#">Help & Support</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>LEGAL</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="contact-details flex">
+                    <div>
+                        <h4>GET IN TOUCH</h4>
+                    </div>
+                    <div class="details flex">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>College Road 10, Biratnagar 56613, Nepal</p>
+                    </div>
+                    <div class="details flex">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>9874561230, 9812365470</p>
+                    </div>
+                    <div class="details flex">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>vansa123@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Sub Footer Section -->
+
+    <footer class="subfooter-section">
+        <div class="container subfooter-content flex">
+            <div>©2025 Vansa®. All Rights Reserved</div>
+
+            <div class="subfooter-social-icon flex">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
