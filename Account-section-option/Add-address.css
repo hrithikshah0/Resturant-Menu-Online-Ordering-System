@@ -26,11 +26,17 @@
 
 /* Form Section */
 
+.address-form{
+  background-color: var(--Explore-menu-card);
+  padding-block: 30px;
+}
 .form-container{
-  background-color: var(--se);
+    justify-content: center;
 }
 .add-address-container{
-    padding-block: 20px;
+    background-color: var(--secondary-text-color);
+    border-radius: 8px;
+    padding: 30px;
     flex-direction: column;
     gap: 20px;
     align-items: flex-start;
